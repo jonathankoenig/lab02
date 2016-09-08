@@ -22,33 +22,29 @@ void changeSize(Box box)
 
 ## What are the types of the following values?
 
-* 0 - Int
+* 0 - Int, double, float?
 * "hello" - String
-* 101 - Int
-* -1 - Int
-* true - Boolean
+* 101 - Int, double, float?
+* -1 - Int, double, float?
+* true - boolean
 * "33" - String
-* 3.1415 - Float
+* 3.1415 - double, float?
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
-In the part of the class where the attributes are defined, I would add "private String name;", then add a way to change the name:
 
-public void changeName (String newName)
-{
-	name = newName;
-}
+private String name;
 
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
 
-void send(String send1);
+public void send(String var1);
 
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
 
-int average(int num1, int num2);
+public int average(int var1, int var2);
 
 ## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
 
-Object. The class is Book.
+The book is an object. The class is Book.
 
 ## Can an object have several different classes? Discuss.
 
