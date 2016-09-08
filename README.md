@@ -6,9 +6,11 @@
 * instance, - Specific realization of any object
 * method, - A collection of statements, in a class, used to manipulate (mutators) or access information (accessors) from an object of that class (Behaves like a function in mathematics)
 * signature (or heading), - Name of a method and it's parameter type. ex. This signature changes the size of the instance "box" of class "Box" and does not give an output
+
 ---
 void changeSize(Box box)
 ---
+
 * parameter, - An input of the method. ex. "box" is the parameter in the example above.
 * type, - Defines what values the parameter is allowed to be. Ex. Int for whole numbers, String for words or sentences, etc.
 * state, - Set of values describing an object.
